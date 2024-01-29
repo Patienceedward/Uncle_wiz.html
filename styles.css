@@ -1,0 +1,148 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #444;
+    color: #fff;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 95px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #bbb;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.products {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscribe-section p {
+    margin: 5px 0;
+}
+
+.subscribe-section input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.subscribe-section input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.subscribe-section button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe-section button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 9px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
